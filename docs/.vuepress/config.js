@@ -3,11 +3,17 @@ module.exports = {
     description: 'Hello',
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/' },
+            { text: '主页', link: '/' },
             { text: 'GitHub', link: 'https://github.com/huzidabanzhang' }
         ],
         sidebar: [
-            '/first.md'
+            {
+                title: '笔记',
+                collapsable: false,
+                children: [
+                    '/notes/2019-11-13'
+                ]
+            }
         ]
     }
 }
