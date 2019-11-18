@@ -10,8 +10,9 @@ module.exports = {
             {
                 title: '笔记',
                 collapsable: false,
-                children: [
-                    '/notes/2019-11-13'
+                children: [ 
+                    '/notes/2019-11-13',
+                    '/notes/2019-11-15'
                 ]
             }
         ]
