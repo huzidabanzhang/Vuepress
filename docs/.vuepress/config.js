@@ -12,7 +12,8 @@ module.exports = {
                 collapsable: false,
                 children: [ 
                     '/notes/2019-11-13',
-                    '/notes/2019-11-15'
+                    '/notes/2019-11-15',
+                    '/notes/2019-11-19'
                 ]
             }
         ]
